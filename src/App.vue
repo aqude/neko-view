@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import ViewerPage from "./pages/ViewerPage.vue";
+import Header     from "./components/Header.vue";
 </script>
 
 <template>
-  <ViewerPage/>
+  <Header/>
+  <router-view></router-view>
 </template>
 
 

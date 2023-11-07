@@ -61,9 +61,6 @@ export default defineComponent({
 
 
 <template>
-  <header class="header">
-    <!-- Your header content here -->
-  </header>
   <section class="content__cards">
     <Card v-for="item in items" :key="item.url" :data="item" />
   </section>
